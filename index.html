@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Biryani&display=swap" rel="stylesheet">
 </head>
 <body>
     
-    <div class="header">
-        <div class="header-top d-flex justify-content-around">
+    <header class="header">
+        <section class="header-top d-flex justify-content-around">
             <div class="logo">
                 <a href="#">
                     <img src="img/LOGO.png" alt="">
@@ -33,8 +34,8 @@
                     <img src="img/login-icon.png" alt=""> Войти
                 </a>
             </div>
-        </div>
-        <div class="sub-header">
+        </section>
+        <nav class="sub-header">
             <ul class="sub-menu">
                 <li><a class="oxy12-15" href="#">Торговая площадка</a></li>
                 <li><a class="oxy12-15" href="#">Компании</a></li>
@@ -47,9 +48,375 @@
                 <li>USD</li>
                 <li>RUS</li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
 
+    <article class="main-top">
+        <aside class="slider-category">
+            <ul>
+                <li>
+                    <a class="bin16-28" href="#">
+                        <img src="img/allcat.png" alt=""> Все категории
+                    </a>
+                </li>
+                <li>
+                    <a class="bin16-28" href="#">
+                        <img src="img/cola.png" alt=""> Продукты питания
+                    </a>
+                </li>
+                <li>
+                    <a class="bin16-28" href="#">
+                        <img src="img/flower.png" alt=""> Сельское хозяйство
+                    </a>
+                </li>
+                <li>
+                    <a class="bin16-28" href="#">
+                        <img src="img/vewalka.png" alt=""> Одежда
+                    </a>
+                </li>
+                <li>
+                    <a class="bin16-28" href="#">
+                        <img src="img/uwi.png" alt=""> Здоровье и медицина
+                    </a>
+                </li>
+                <li>
+                    <a class="bin16-28" href="#">
+                        <img src="img/comp.png" alt=""> Бытовая электроника
+                    </a>
+                </li>
+                <li>
+                    <a class="bin16-28" href="#">
+                        <img src="img/car.png" alt=""> Автомобили и аксессуары
+                    </a>
+                </li>
+                <li>
+                    <a class="bin16-28" href="#">
+                        <img src="img/cafel.png" alt=""> Аукционные товары
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <aside class="main-slider">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/slider-foto.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/slider-foto.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/slider-foto.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </aside>
+    </article>
+
+    <article class="popular-tovar">
+        <h4 class="popular-tovar__title oxy18-23">
+            Популярные товары
+        </h4>
+        <aside class="popular-card">
+            <section class="popular-item">
+                <div class="item-img">
+                    <img src="img/card-img.png" alt="">
+                    <div class="item-logo">
+                        <p class="item-logo__text oxy12-15">Logo</p>
+                    </div>
+                    <p class="item-top oxy12-15">Top</p>
+                </div>
+                <div class="item-descr">
+                    <h5 class="item-descr__title oxy12-15">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                    <div class="item-price__country">
+                        <p class="item-big__price">22 200</p>
+                        <p><img src="img/map-geo.png" alt="">Almaty</p>
+                    </div>
+                    <p class="price-rozn oxy12-15">22 200 (розничная)</p>
+                </div>
+            </section>
+            <section class="popular-item">
+                <div class="item-img">
+                    <img src="img/card-img.png" alt="">
+                    <div class="item-logo">
+                        <p class="item-logo__text oxy12-15">Logo</p>
+                    </div>
+                    <p class="item-top oxy12-15">Top</p>
+                </div>
+                <div class="item-descr">
+                    <h5 class="item-descr__title oxy12-15">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                    <div class="item-price__country">
+                        <p class="item-big__price">22 200</p>
+                        <p><img src="img/map-geo.png" alt="">Almaty</p>
+                    </div>
+                    <p class="price-rozn oxy12-15">22 200 (розничная)</p>
+                </div>
+            </section>
+            <section class="popular-item">
+                <div class="item-img">
+                    <img src="img/card-img.png" alt="">
+                    <div class="item-logo">
+                        <p class="item-logo__text oxy12-15">Logo</p>
+                    </div>
+                    <p class="item-top oxy12-15">Top</p>
+                </div>
+                <div class="item-descr">
+                    <h5 class="item-descr__title oxy12-15">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                    <div class="item-price__country">
+                        <p class="item-big__price">22 200</p>
+                        <p><img src="img/map-geo.png" alt="">Almaty</p>
+                    </div>
+                    <p class="price-rozn oxy12-15">22 200 (розничная)</p>
+                </div>
+            </section>
+            <section class="popular-item">
+                <div class="item-img">
+                    <img src="img/card-img.png" alt="">
+                    <div class="item-logo">
+                        <p class="item-logo__text oxy12-15">Logo</p>
+                    </div>
+                    <p class="item-top oxy12-15">Top</p>
+                </div>
+                <div class="item-descr">
+                    <h5 class="item-descr__title oxy12-15">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                    <div class="item-price__country">
+                        <p class="item-big__price">22 200</p>
+                        <p><img src="img/map-geo.png" alt="">Almaty</p>
+                    </div>
+                    <p class="price-rozn oxy12-15">22 200 (розничная)</p>
+                </div>
+            </section>
+        </aside>
+    </article>
+
+    <article class="index-category">
+        <h4 class="index-categ__title">
+            Категории
+        </h4>
+        <aside class="index-cat__card">
+            <section class="category-card__item">
+                <div class="item-img">
+                    <img src="img/card-img.png" alt="">
+                    <div class="item-logo">
+                        <p class="item-logo__text oxy12-15">Logo</p>
+                    </div>
+                    <p class="item-top oxy12-15">Top</p>
+                </div>
+                <div class="item-descr">
+                    <h5 class="item-descr__title oxy12-15">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                    <div class="item-price__country">
+                        <p class="item-big__price">22 200</p>
+                        <p><img src="img/map-geo.png" alt="">Almaty</p>
+                    </div>
+                    <p class="price-rozn oxy12-15">22 200 (розничная)</p>
+                </div>
+            </section>
+            <section class="category-card__item">
+                <div class="item-img">
+                    <img src="img/card-img.png" alt="">
+                    <div class="item-logo">
+                        <p class="item-logo__text oxy12-15">Logo</p>
+                    </div>
+                    <p class="item-top oxy12-15">Top</p>
+                </div>
+                <div class="item-descr">
+                    <h5 class="item-descr__title oxy12-15">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                    <div class="item-price__country">
+                        <p class="item-big__price">22 200</p>
+                        <p><img src="img/map-geo.png" alt="">Almaty</p>
+                    </div>
+                    <p class="price-rozn oxy12-15">22 200 (розничная)</p>
+                </div>
+            </section>
+            <section class="category-card__item">
+                <div class="item-img">
+                    <img src="img/card-img.png" alt="">
+                    <div class="item-logo">
+                        <p class="item-logo__text oxy12-15">Logo</p>
+                    </div>
+                    <p class="item-top oxy12-15">Top</p>
+                </div>
+                <div class="item-descr">
+                    <h5 class="item-descr__title oxy12-15">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                    <div class="item-price__country">
+                        <p class="item-big__price">22 200</p>
+                        <p><img src="img/map-geo.png" alt="">Almaty</p>
+                    </div>
+                    <p class="price-rozn oxy12-15">22 200 (розничная)</p>
+                </div>
+            </section>
+            <section class="category-card__item">
+                <div class="item-img">
+                    <img src="img/card-img.png" alt="">
+                    <div class="item-logo">
+                        <p class="item-logo__text oxy12-15">Logo</p>
+                    </div>
+                    <p class="item-top oxy12-15">Top</p>
+                </div>
+                <div class="item-descr">
+                    <h5 class="item-descr__title oxy12-15">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                    <div class="item-price__country">
+                        <p class="item-big__price">22 200</p>
+                        <p><img src="img/map-geo.png" alt="">Almaty</p>
+                    </div>
+                    <p class="price-rozn oxy12-15">22 200 (розничная)</p>
+                </div>
+            </section>
+            <section class="category-card__item">
+                <div class="item-img">
+                    <img src="img/card-img.png" alt="">
+                    <div class="item-logo">
+                        <p class="item-logo__text oxy12-15">Logo</p>
+                    </div>
+                    <p class="item-top oxy12-15">Top</p>
+                </div>
+                <div class="item-descr">
+                    <h5 class="item-descr__title oxy12-15">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                    <div class="item-price__country">
+                        <p class="item-big__price">22 200</p>
+                        <p><img src="img/map-geo.png" alt="">Almaty</p>
+                    </div>
+                    <p class="price-rozn oxy12-15">22 200 (розничная)</p>
+                </div>
+            </section>
+            <section class="category-card__item">
+                <div class="item-img">
+                    <img src="img/card-img.png" alt="">
+                    <div class="item-logo">
+                        <p class="item-logo__text oxy12-15">Logo</p>
+                    </div>
+                    <p class="item-top oxy12-15">Top</p>
+                </div>
+                <div class="item-descr">
+                    <h5 class="item-descr__title oxy12-15">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                    <div class="item-price__country">
+                        <p class="item-big__price">22 200</p>
+                        <p><img src="img/map-geo.png" alt="">Almaty</p>
+                    </div>
+                    <p class="price-rozn oxy12-15">22 200 (розничная)</p>
+                </div>
+            </section>
+            <section class="category-card__item">
+                <div class="item-img">
+                    <img src="img/card-img.png" alt="">
+                    <div class="item-logo">
+                        <p class="item-logo__text oxy12-15">Logo</p>
+                    </div>
+                    <p class="item-top oxy12-15">Top</p>
+                </div>
+                <div class="item-descr">
+                    <h5 class="item-descr__title oxy12-15">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                    <div class="item-price__country">
+                        <p class="item-big__price">22 200</p>
+                        <p><img src="img/map-geo.png" alt="">Almaty</p>
+                    </div>
+                    <p class="price-rozn oxy12-15">22 200 (розничная)</p>
+                </div>
+            </section>
+            <section class="category-card__item">
+                <div class="item-img">
+                    <img src="img/card-img.png" alt="">
+                    <div class="item-logo">
+                        <p class="item-logo__text oxy12-15">Logo</p>
+                    </div>
+                    <p class="item-top oxy12-15">Top</p>
+                </div>
+                <div class="item-descr">
+                    <h5 class="item-descr__title oxy12-15">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                    <div class="item-price__country">
+                        <p class="item-big__price">22 200</p>
+                        <p><img src="img/map-geo.png" alt="">Almaty</p>
+                    </div>
+                    <p class="price-rozn oxy12-15">22 200 (розничная)</p>
+                </div>
+            </section>
+        </aside>
+    </article>
+    
+    <article class="pawelon">
+        <h4 class="pawelon-section__title oxy18-23_blackbold">
+            Павильоны
+        </h4>
+        <aside class="pawel-card">
+            <section class="pawel-item">
+                <img src="img/pawl-foto.png" alt="" class="pawel-foto">
+                <h4 class="pawl-title oxy18-23">
+                    Lorem, ipsum.
+                </h4>
+                <h6 class="pawel-city oxy12-15">
+                    Country, city
+                </h6>
+            </section>
+            <section class="pawel-item">
+                <img src="img/pawl-foto.png" alt="" class="pawel-foto">
+                <h4 class="pawl-title oxy18-23">
+                    Lorem, ipsum.
+                </h4>
+                <h6 class="pawel-city oxy12-15">
+                    Country, city
+                </h6>
+            </section>
+            <section class="pawel-item">
+                <img src="img/pawl-foto.png" alt="" class="pawel-foto">
+                <h4 class="pawl-title oxy18-23">
+                    Lorem, ipsum.
+                </h4>
+                <h6 class="pawel-city oxy12-15">
+                    Country, city
+                </h6>
+            </section>
+            <section class="pawel-item">
+                <img src="img/pawl-foto.png" alt="" class="pawel-foto">
+                <h4 class="pawl-title oxy18-23">
+                    Lorem, ipsum.
+                </h4>
+                <h6 class="pawel-city oxy12-15">
+                    Country, city
+                </h6>
+            </section>
+            <section class="pawel-item oxy18-23">
+                <img src="img/pawl-foto.png" alt="" class="pawel-foto">
+                <h4 class="pawl-title">
+                    Lorem, ipsum.
+                </h4>
+                <h6 class="pawel-city oxy12-15">
+                    Country, city
+                </h6>
+            </section>
+        </aside>
+    </article>
     
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
