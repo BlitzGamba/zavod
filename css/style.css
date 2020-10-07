@@ -72,6 +72,20 @@ button {
   line-height: 32px;
   color: #EC5254;
 }
+.bin30-53 {
+  font-family: 'Biryani', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 53px;
+}
+.inter16 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
 /* конец стилей текста */
 
 
@@ -295,8 +309,148 @@ button {
 
 
 /* начало стилей для страницы pawelion.html */
-.create-paw__leftsidebar {
+
+/* конец стилей для pawelion.html */
+
+
+
+
+/* начало стилейе для sdelca-complete.html */
+.sdelka-complete {
+  background: url('/img/sdelka-back.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
   height: 100vh;
-  background: #3333CC;
-  width: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.sdelka-complete-card {
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  max-width: 754px;
+  width: 100%;
+  min-width: 310px;
+}
+.sdelka-complete__title {
+  color: #fff;
+  text-align: center;
+  padding-top: 112px;
+  padding-bottom: 73px;
+}
+.sdelka-complete__otziv {
+  background: #FFD300;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 5px 46px;
+  color: #000000;
+
+}
+@media (max-width: 768px) {
+  .sdelka-complete-card {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+/* конец стилейе для sdelca-complete.html */
+
+
+
+
+
+/* начало стилейе для uwla-na-moderaciu.html */
+
+/* конец стилейе для uwla-na-moderaciu.html */
+
+
+
+
+
+
+
+
+/* начало стилейе для myprofile.html */
+.myprofile-main {
+  max-width: 996px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+.myprofile-section {
+  display: flex;
+}
+.left-sidebar {
+  width: 80px;
+  height: 100vh;
+  position: fixed;
+  background: #0800C2;
+  text-align: center;
+}
+.profile-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar {
+  border-bottom: 1px solid #919191;
+  margin-bottom: 30px;
+  margin-top: 11px;
+  width: 55px;
+  height: 55px;
+}
+.profile-navigation a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.profile-form__left, .profile-form__right {
+  display: flex;
+  flex-direction: column;
+}
+.profile-form {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.profile-form input,select, option {
+  width: 422px;
+  height: 55px;
+  padding-left: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  outline: none;
+}
+/* конец стилейе для myprofile.html */
+
+
+
+
+/* начало стилей для страницы my-partner.html */
+.mypartner {
+  max-width: 1140px;
+  margin: auto;
+  width: 100%;
+}
+.mypartner-item {
+  width: 270px;
+  height: 275px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  position: relative;
+}
+.mypartner-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* конец стилей для страницы my-partner.html */
