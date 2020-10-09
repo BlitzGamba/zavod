@@ -86,6 +86,16 @@ button {
   font-size: 16px;
   line-height: 150%;
 }
+.roboto18-21 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
 /* конец стилей текста */
 
 
@@ -439,6 +449,23 @@ button {
   max-width: 1140px;
   margin: auto;
   width: 100%;
+  margin-top: 67px;
+}
+.mypartner-title {
+  text-align: center;
+}
+.create-contact {
+  width: 248px;
+  height: 34px;
+  background: #EC5254;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-top: -30px;
+  color: #fff;
 }
 .mypartner-item {
   width: 270px;
@@ -452,5 +479,41 @@ button {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 45px;
+}
+.partner-close-icon {
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 0px;
+}
+.partner-image {
+  width: 270px;
+  height: 220px;
+}
+.mypartner-item__content {
+  position: absolute;
+  bottom: 0px;
+  width: 270px;
+  height: 90px;
+  background: #4F4F4F;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);
 }
 /* конец стилей для страницы my-partner.html */
+
+
+
+
+
+
+
+
+
+
+
+/* начало стлей в user-regist.html */
+.user-reg {
+  margin-left: 40px;  
+  margin-bottom: 47px;
+}
+/* конец стлей в user-regist.html */
