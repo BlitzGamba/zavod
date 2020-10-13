@@ -495,9 +495,38 @@ button {
   position: absolute;
   bottom: 0px;
   width: 270px;
-  height: 90px;
+  height: 95px;
   background: #4F4F4F;
   box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.3);
+}
+.mypartner-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.pencil {
+  border-left: 1px solid #fff;
+  padding-left: 10px;
+}
+.mypartner-item__title {
+  color: #fff;
+}
+.mypartner-bottom {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.mypartner-bottom__item {
+  display: flex;
+  margin-bottom: 6px;
+}
+.mypartner-bottom__item-a {
+  color: #fff;
+}
+.mypartner-bottom__item div img {
+  width: 18px;
+  height: 14px;
+  margin-right: 10px;
 }
 /* конец стилей для страницы my-partner.html */
 
@@ -517,3 +546,187 @@ button {
   margin-bottom: 47px;
 }
 /* конец стлей в user-regist.html */
+
+
+
+
+
+
+
+/* начало стилей к mycompany.html */
+.mycompany {
+  max-width: 890px;
+  margin: auto;
+  width: 100%;
+  margin-top: 80px;
+}
+.mycompany-top {
+  display: flex;
+  justify-content: space-between;
+}
+.plitka {
+  width: 34px;
+  height: 37px;
+}
+.plitka, .list {
+  border: none;
+  background: transparent;
+} 
+.list {
+  position: relative;
+  top: 8px;
+}
+.create-company {
+  width: 248px;
+  height: 34px; 
+  background: #EC5254;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 5px;
+  color: #ffffff;
+}
+.mycompany-list__item {
+  width: 100%;
+  border-bottom: .5px solid #333333;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.list-login {
+  width: 130px;
+  height: 35px;
+  background: #EC5254;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.mycompany-list {
+  margin-top: 45px;
+}
+/* конец стилей к mycompany.html */
+
+
+
+
+
+
+
+
+
+
+
+/* начало стилей create-pawelion.html */
+.paw-registration {
+  max-width: 890px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 54px;
+}
+.addfoto {
+  color: #000;
+}
+.regpaw-form input {
+  width: 271px;
+  height: 55px;
+  margin-right: 18px;
+  margin-bottom: 7px;
+  border: none;
+  border-bottom: 1px solid #555555;
+}
+.regpaw-form {
+  height: 300px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 64px 0px 56px 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin-top: 30px;
+}
+.big-input-paw {
+  width: 560px !important;  
+}
+.save-form {
+  background: #EC5254;
+  border-radius: 5px;
+  width: 130px;
+  height: 35px;
+  color: #fff;
+  border: none;
+  outline: none;
+  display: block;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.paw-reg-img {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 65px;
+  left: 20px;
+}
+.paw-reg-img-text {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+/* конец стилей create-pawelion.html */
+
+
+/* начало стилей к companies & categories-page.html */
+.wraper {
+  max-width: 1100px;
+  margin: auto;
+  padding-top: 95px;
+}
+.wraper ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.wraper li {
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* конец стилей к companies & categories-page.html */
+
+
+
+
+/* начало стилей к moisotrundiki.html */
+.sotrudniki-mainblock {
+  max-width: 1140px;
+  margin: auto;
+  padding-top: 54px;
+}
+.myjober-title {
+  text-align: center;
+}
+.myjober-top {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.create-newjober {
+  color: #fff !important;
+  background: #EC5254;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  padding: 5px 28px;
+}
+.myjober-name {
+  color: #000 !important;
+}
+.myjober-reiting {
+  padding-top: 14px;
+  padding-bottom: 14px; 
+}
+/* конец стилей к moisotrundiki.html */
