@@ -721,6 +721,7 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
   padding: 5px 28px;
+  margin-top: 10px;
 }
 .myjober-name {
   color: #000 !important;
@@ -729,4 +730,126 @@ button {
   padding-top: 14px;
   padding-bottom: 14px; 
 }
+.myjober-right-top {
+  padding-top: 65px;
+  display: flex;
+  flex-direction: column;
+}
+.more-ewe {
+  margin-left: auto;
+  margin-top: 30px;
+}
+.myjober-item__top {
+  width: 427px;
+  height: 67px;
+  background: #3333CC;
+  border-radius: 4px;
+  position: relative;
+  top: 33px;
+  left: 18px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.myjober-item__top-func {
+  color: #fff !important;
+  text-align: center;
+}
+.myjober-item {
+  width: 463px;
+  height: 224px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  display: flex !important;
+  padding-top: 52px;
+}
+.myjober-item__info-text {
+  margin-left: 25px;
+}
+.myjober-item-foto {
+  margin-left: 30px;
+}
+.myjober-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 967px;
+  margin: auto;
+}
 /* конец стилей к moisotrundiki.html */
+
+
+
+
+
+
+
+/* начало стилей к auth.html */
+.autentifaction {
+  width: 100%;
+  height: 100vh;
+  background-color: #C4C4C4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.authorize {
+  width: 623px;
+  height: 425px;
+  background: #FFFFFF;
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.25), 0px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+}
+.authorize-title {
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 39px;
+}
+.auth-input {
+  width: 422px;
+  height: 55px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border: none;
+  border-bottom: 1px solid #555555;
+  padding-left: 20px;
+}
+.authorize-bottom {
+  max-width: 422px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.zapom {
+  width: 109px;
+}
+.dalee {
+  background: #D9AB9A;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  width: 130px;
+  height: 40px;
+  border: none;
+  color: #fff;
+}
+/* конец стилей к auth.html */
+
+
+
+
+
+
+
+
+/* начало стилей к create-company.html */
+.cr-comp-sohr {
+  position: relative !important;
+  top: 80px !important;
+  right: 0px !important;
+}
+/* конец стилей к create-company.html */
