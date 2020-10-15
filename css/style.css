@@ -16,6 +16,27 @@ input {
 button {
   outline: none !important;
 }
+.open-nav {
+  position: relative;
+  left: 70px;
+  top: -80px;
+  transition: .5s;
+}
+.check {
+  position: relative;
+  left: 170px;
+  top: -80px;
+  transition: .5s;
+  transform: rotateZ(180deg);
+}
+.nav-text {
+  color: #fff !important;
+  margin-left: 10px;
+  position: relative;
+  top: 4px;
+  width: 100px;
+  text-align: left;
+}
 /* стили текста */
 .oxy12-15 {
   font-family: 'Oxygen', sans-serif;
@@ -399,11 +420,21 @@ button {
   position: fixed;
   background: #0800C2;
   text-align: center;
+  transition: .5s;
+  z-index: 1;
+}
+.nav-width {
+  width: 257px;
+  transition: .5s;
 }
 .profile-navigation {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.profile-navigation a {
+  display: flex;
+  justify-content: space-between;
 }
 .avatar {
   border-bottom: 1px solid #919191;
