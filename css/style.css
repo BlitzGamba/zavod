@@ -126,6 +126,13 @@ button {
   height: 32px;
   position: relative;
 }
+.header-top {
+  display: flex;
+  justify-content: space-around;
+}
+.search {
+  display: flex;
+}
 .search-input {
   width: 303px;
   height: 32px;
@@ -143,7 +150,7 @@ button {
   right: 0;
   width: 73.84px;
   height: 32px;
-  background: url('/img/orange-search.png');
+  background: url('../img/orange-search.png');
   border-radius: 0px 15px 15px 0px;
   border: none;
 }
@@ -190,6 +197,60 @@ button {
 }
 .exchange li {
   margin-right: 43px;
+}
+.admin-button {
+  display: flex;
+  max-width: 211px;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+}
+.admin-button > div {
+  position: relative;
+}
+.drop-menu {
+  display: flex;
+  flex-direction: column;
+  width: 110px;
+  position: absolute;
+  display: none;
+  margin-top: 40px;
+  margin-left: -40px;
+  height: 54px;
+  background: #FFFFFF;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+.drop-a {
+  padding-top: 7px;
+}
+.message-header {
+  background: url('../img/messages-button.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+.logist-header {
+  background: url('../img/logist-buton.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+.tovar-header {
+  background: url('../img/tovar-button.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+.sklad-header {
+  background: url('../img/skald-icon.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
 }
 /* конец хидера */
 
