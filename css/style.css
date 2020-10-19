@@ -1200,3 +1200,146 @@ button {
   background-color: yellow;
   color: black;
 }
+
+
+
+
+/* na4alo styles for zayavka-na-poisk-logista-na-birje */
+.log-s-f__bottom-l a {
+  display: block;
+  color: #8E90A6;
+}
+.logist-search-form {
+  max-width: 850px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 70px;
+}
+.logist-search-form input {
+  width: 366px;
+  height: 55px;
+  border: none;
+  border-bottom: 1px solid #8E90A6;
+}
+.log-search-form__bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 70px;
+}
+.log-s-f__bottom-r {
+  background: #FFD300;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  width: 248px;
+  height: 34px;
+  border: none;
+  display: block;
+}
+/* konec styles for zayavka-na-poisk-logista-na-birje */
+
+
+
+
+
+/* myJober-plitka */
+.list-toggle-right {
+  display: block;
+  margin-left: auto;
+}
+.job-status {
+  background: #FFD300;
+  border-radius: 4px;
+  width: 114px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+.jober-avatar {
+  width: 74px;
+  height: 74px;
+}
+.my-sotr__item-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.my-sotr__item {
+  width: 280px;
+}
+.my-sotr__item-contnet {
+  padding-left: 24px;
+}
+.myJobber-raiting {
+  margin-top: 44px;
+}
+.my-sotr-plitka {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+}
+/* myJober-plitka */
+
+
+/* mysklad-plitka */
+.mysklad-plitka__item {
+  width: 334px;
+  height: 232px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  margin-bottom: 50px;
+}
+.sklad-pl-img {
+  width: 302px;
+  height: 145px;
+}
+.mysklad-plitka__img {
+  position: relative;
+  top: -25px;
+  left: 16px;
+}
+.sklad-open {
+  width: 130px;
+  height: 34px;
+  background: #FFD300;
+  border-radius: 5px;
+  padding-top: 10px;
+  display: block;
+  text-align: center;
+}
+.mysklad-plitka-bottom {
+  display: flex;
+  justify-content: space-around;
+}
+.sklad-plus {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+}
+.sklad-plus__img {
+  width: 60px;
+  height: 60px;
+}
+.mysklad-plitka-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 44px;
+  flex-wrap: wrap;
+}
+.w1050 {
+  max-width: 1050px;
+}
+.mycomp-obs {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  width: 193px;
+  height: 193px;
+}
+/* mysklad-plitka */
