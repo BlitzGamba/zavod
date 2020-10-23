@@ -267,6 +267,9 @@ header {
   max-width: 278px;
   width: 100%;
 }
+.main-slider {
+  max-width: 855px;
+}
 .main-top {
   display: flex;
   max-width: 1140px;
@@ -1951,6 +1954,7 @@ footer {
 .footer-wraper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   max-width: 1114px;
   margin: auto;
   padding-top: 194px;
@@ -1984,9 +1988,20 @@ footer {
 .right-footer {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .footer-section {
   width: 220px;
   margin-right: 30px;
 }
 /* footer end */
+@media (max-width: 768px) {
+  .footer-wraper {
+    flex-direction: column;
+    width: 310px;
+    margin: auto;
+  }
+  .right-footer {
+    flex-direction: column;
+  }
+}
