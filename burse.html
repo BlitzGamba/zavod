@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Biryani&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+        <section class="header-top d-flex justify-content-around">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/LOGO.png" alt="">
+                </a>
+            </div>
+            <div class="search d-flex">
+                <button class="search-button">
+                    <img src="img/filter-header-icon.png" alt="">
+                </button>
+                <div class="search-wraper">
+                    <form action="">
+                        <input type="search" class="search-input">
+                        <input type="submit" class="search-submit" value="">    
+                    </form>
+                </div>
+            </div>
+            <div class="login">
+                <a href="#" class="login-button oxy12-15">
+                    <img src="img/login-icon.png" alt=""> Войти
+                </a>
+            </div>
+        </section>
+        <nav class="sub-header">
+            <ul class="sub-menu">
+                <li><a class="oxy12-15" href="#">Торговая площадка</a></li>
+                <li><a class="oxy12-15" href="#">Компании</a></li>
+                <li><a class="oxy12-15" href="#">Логисты</a></li>
+                <li><a class="oxy12-15" href="#">Помощь</a></li>
+                <li><a class="oxy12-15" href="#">Для бизнеса</a></li>
+                <li><a class="oxy12-15" href="#">Вопросы и предложения</a></li>
+            </ul>
+            <ul class="exchange">
+                <li>USD</li>
+                <li>RUS</li>
+            </ul>
+        </nav>
+    </header>
+
+	<main class="burse">
+		<section class="search-options">
+			<article class="search-options-content">
+				<h4 class="search-options-title oxy17-21">
+					Параметры поиска
+				</h4>
+				<form action="" class="search-options-form">
+					<input type="text" placeholder="Категории">
+					<input type="text" placeholder="Название">
+					<input type="text" placeholder="Ключевое слово">
+					<input type="text" placeholder="Мин. заказ">
+					<input type="text" placeholder="Цена миним.">
+					<input type="text" placeholder="Цена макс.">
+					<input type="text" placeholder="Типы поставщиков">
+					<input type="text" placeholder="Товар/заявка на закуп">
+				</form>
+				<figure class="search-options-checkbox">
+					<input type="checkbox" name="" id="">
+					<img src="img/flag-kz.png" alt="">
+					<label class="oxy17-21" for="">Казахстан</label>
+				</figure>
+				<figure class="search-options-checkbox">
+					<input type="checkbox" name="" id="">
+					<img src="img/flag-ch.png" alt="">
+					<label class="oxy17-21" for="">Китай</label>
+				</figure>
+				<figure class="search-options-checkbox">
+					<input type="checkbox" name="" id="">
+					<img src="img/flag-uz.png" alt="">
+					<label class="oxy17-21" for="">Узбекистан</label>
+				</figure>
+				<figure class="search-options-checkbox">
+					<input type="checkbox" name="" id="">
+					<img src="img/flag-kg.png" alt="">
+					<label class="oxy17-21" for="">Киргизстан</label>
+				</figure>
+				<figure class="search-options-checkbox">
+					<input type="checkbox" name="" id="">
+					<img src="img/flag-ir.png" alt="">
+					<label class="oxy17-21" for="">Иран</label>
+				</figure>
+				<figure class="search-options-checkbox">
+					<input type="checkbox" name="" id="">
+					<img src="img/flag-ru.png" alt="">
+					<label class="oxy17-21" for="">Россия</label>
+				</figure>
+			</article>
+			<button class="search-options-btn oxy18-23">Поиск</button>
+		</section>
+		<section class="b-categories">
+			<div class="b-categories-title">
+				<h4 class="oxy17-21">
+					Категории
+				</h4>
+				<span>
+					<img src="img/c-arrow.png" alt="">
+				</span>
+			</div>
+			<aside class="index-cat__card b-categories-card">
+				<section class="category-card__item b-categories-card__item">
+					<div class="item-img br-4">
+						<img src="img/card-img.png" alt="">
+						<div class="item-logo op-0">
+							<p class="item-logo__text oxy12-15">Logo</p>
+						</div>
+						<p class="item-top oxy12-15 op-0">Top</p>
+					</div>
+					<div class="item-descr">
+						<h5 class="item-descr__title mt5 oxy12-15">
+							Lorem ipsum dolor sit amet consectetur.
+						</h5>
+						<div class="item-big-i">
+							<p class="oxy12-15">От:</p>
+							<p class="oxy12-15">К:</p>
+						</div>
+						<div class="item-price__country mt-ml5">
+							<p class="item-big__price">22 200</p>
+							<p><img src="img/map-geo.png" alt="">Almaty</p>
+						</div>
+						<p class="price-rozn oxy12-15 mt-15">22 200 (розничная)</p>
+					</div>
+				</section>
+				<section class="category-card__item b-categories-card__item">
+					<div class="item-img br-4">
+						<img src="img/card-img.png" alt="">
+						<div class="item-logo op-0">
+							<p class="item-logo__text oxy12-15">Logo</p>
+						</div>
+						<p class="item-top oxy12-15 op-0">Top</p>
+					</div>
+					<div class="item-descr">
+						<h5 class="item-descr__title mt5 oxy12-15">
+							Lorem ipsum dolor sit amet consectetur.
+						</h5>
+						<div class="item-big-i">
+							<p class="oxy12-15">От:</p>
+							<p class="oxy12-15">К:</p>
+						</div>
+						<div class="item-price__country mt-ml5">
+							<p class="item-big__price">22 200</p>
+							<p><img src="img/map-geo.png" alt="">Almaty</p>
+						</div>
+						<p class="price-rozn oxy12-15 mt-15">22 200 (розничная)</p>
+					</div>
+				</section>
+			</aside>	
+		</section>
+	</main>
+</body>
+</html>
